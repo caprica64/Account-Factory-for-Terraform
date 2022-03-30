@@ -8,6 +8,10 @@ module "aft" {
   tf_backend_secondary_region = var.tf_backend_secondary_region
 
   vcs_provider                                  = "github"
+  terraform_distribution                        = "tfc"
+  terraform_org_name                            = "caprica"
+  terraform_api_endpoint                        = "https://app.terraform.io/api/v2/"
+  terraform_token                               = var.terraformtoken
   account_request_repo_name                     = "${var.github_username}/learn-terraform-aft-account-request"
   account_provisioning_customizations_repo_name = "${var.github_username}/learn-terraform-aft-account-provisioning-customizations"
   global_customizations_repo_name               = "${var.github_username}/learn-terraform-aft-global-customizations"
