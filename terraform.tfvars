@@ -1,0 +1,7 @@
+ct_management_account_id    = "291045144839"
+log_archive_account_id      = "716856377128"
+audit_account_id            = "354111917189"
+aft_management_account_id   = "422822914274"
+github_username             = "caprica64"
+ct_home_region              = "us-east-1"
+tf_backend_secondary_region = "us-east-2"
