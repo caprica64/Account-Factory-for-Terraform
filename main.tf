@@ -1,6 +1,6 @@
 module "aft" {
   source = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
-  ct_management_account_id    = "${var.ct_management_account_id}"
+  ct_management_account_id    = var.ct_management_account_id
   log_archive_account_id      = var.log_archive_account_id
   audit_account_id            = var.audit_account_id
   aft_management_account_id   = var.aft_management_account_id
