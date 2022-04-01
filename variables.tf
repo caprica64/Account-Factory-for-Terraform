@@ -35,6 +35,5 @@ variable "tf_backend_secondary_region" {
 
 variable "terraformtoken" {
   type = string
-  default = 
 }
 
