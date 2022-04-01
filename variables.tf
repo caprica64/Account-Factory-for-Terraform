@@ -1,4 +1,7 @@
-variable "ct_management_account_id" {}
+variable "ct_management_account_id" {
+  type = string
+  default = "291045144839"
+}
 
 variable "log_archive_account_id" {}
 
